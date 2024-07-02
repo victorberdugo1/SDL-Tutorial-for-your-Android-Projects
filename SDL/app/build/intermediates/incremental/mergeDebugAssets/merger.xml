@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\XposeMedia\AndroidStudioProjects\SDL\app\src\main\assets"><file name="image.bmp" path="C:\Users\XposeMedia\AndroidStudioProjects\SDL\app\src\main\assets\image.bmp"/></source><source path="C:\Users\XposeMedia\AndroidStudioProjects\SDL\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\XposeMedia\AndroidStudioProjects\SDL\app\src\debug\assets"/></dataSet></merger>
