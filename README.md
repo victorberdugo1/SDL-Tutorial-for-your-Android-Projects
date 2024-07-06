@@ -74,6 +74,6 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 
 - Tutorial by [Victor Berdugo](https://www.youtube.com/@PrograMaths220)
 - SDL Library by [SDL Development Team](https://www.libsdl.org/)
-- Inspired by the [YouTube video](https://www.youtube.com/watch?v=BSBISI0sCqo)
+- Base on video [YouTube video](https://www.youtube.com/watch?v=BSBISI0sCqo)
 - Check out my games on the [Google Play Store](https://play.google.com/store/apps/developer?id=Victor+Berdugo&pli=1)
 
