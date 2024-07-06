@@ -6,6 +6,16 @@ This repository contains the source code and instructions from the SDL Tutorial 
 
 This project demonstrates how to integrate the Simple DirectMedia Layer (SDL) library into your Android projects. SDL is a cross-platform development library designed to provide low-level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Credits](#credits)
+  
 ## Features
 
 - Setting up SDL in an Android project
@@ -59,3 +69,11 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 3. Commit your changes (`git commit -m 'Add some feature'`)
 4. Push to the branch (`git push origin feature/YourFeature`)
 5. Open a pull request
+
+ ## Credits
+
+- Tutorial by [Victor Berdugo](https://www.youtube.com/@PrograMaths220)
+- SDL Library by [SDL Development Team](https://www.libsdl.org/)
+- Inspired by the [YouTube video](https://www.youtube.com/watch?v=BSBISI0sCqo)
+- Check out my games on the [Google Play Store](https://play.google.com/store/apps/developer?id=Victor+Berdugo&pli=1)
+
