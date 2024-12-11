@@ -1,0 +1,4 @@
+#Wed Dec 11 14:01:57 CVT 2024
+base.0=C\:\\Users\\gamer\\OneDrive\\Documents\\SDL-Tutorial-for-your-Android-Projects\\SDL\\app\\build\\intermediates\\transforms\\dexMerger\\androidTest\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

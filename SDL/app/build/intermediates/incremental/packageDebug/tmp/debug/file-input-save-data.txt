@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Wed Dec 11 14:01:56 CVT 2024
+1.base=C\:\\Users\\gamer\\OneDrive\\Documents\\SDL-Tutorial-for-your-Android-Projects\\SDL\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+2.path=lib/x86/libmain.so
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=C\:\\Users\\gamer\\OneDrive\\Documents\\SDL-Tutorial-for-your-Android-Projects\\SDL\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+3.set=DEX
+2.set=NATIVE_RESOURCE
+1.baseType=DIRECTORY
+3.path=classes.dex
+count=4
+1.set=ASSET
+0.path=lib/x86/libSDL2.so
+3.base=C\:\\Users\\gamer\\OneDrive\\Documents\\SDL-Tutorial-for-your-Android-Projects\\SDL\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.set=NATIVE_RESOURCE
+0.base=C\:\\Users\\gamer\\OneDrive\\Documents\\SDL-Tutorial-for-your-Android-Projects\\SDL\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+2.baseType=DIRECTORY
+1.path=image.bmp

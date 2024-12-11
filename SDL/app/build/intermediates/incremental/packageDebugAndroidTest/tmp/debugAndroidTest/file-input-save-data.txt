@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Dec 11 14:01:57 CVT 2024
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\gamer\\OneDrive\\Documents\\SDL-Tutorial-for-your-Android-Projects\\SDL\\app\\build\\intermediates\\transforms\\dexMerger\\androidTest\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

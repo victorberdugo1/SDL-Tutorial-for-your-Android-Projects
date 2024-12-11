@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 17
+    compileSdkVersion 30
     buildToolsVersion "25.0.3"
 
     sourceSets{
@@ -11,8 +11,9 @@ android {
     }
     defaultConfig {
         applicationId "org.libsdl.app"
-        minSdkVersion 10
-        targetSdkVersion 17
+        minSdkVersion 14
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 30
     }
 
     buildTypes {
@@ -21,4 +22,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+}
+
+dependencies {
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }
