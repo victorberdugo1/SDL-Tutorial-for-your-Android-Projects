@@ -35,7 +35,7 @@ Follow these steps to set up the project:
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/yourusername/SDL-Android-Tutorial.git
+    git clone https://github.com/victorberdugo1/SDL-Android-Tutorial.git
     cd SDL-Android-Tutorial
     ```
 
