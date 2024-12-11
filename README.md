@@ -28,24 +28,26 @@ This project demonstrates how to integrate the Simple DirectMedia Layer (SDL) li
 - Android SDK
 - SDL2 library
 
-## Installation
-
-Follow these steps to set up the project:
-
 ## System Requirements
 
-The version of Android Studio used in this project is 2024.1.2
+The version of Android Studio used in this project is ```2024.1.2```.
 
-Since this project uses an older version of SDL the project requires java version 8. Download it from [OpenJDK](https://www.openlogic.com/openjdk-downloads?field_java_parent_version_target_id=416&field_operating_system_target_id=436&field_architecture_target_id=391&field_java_package_target_id=All) and install it. After installing it, change the JDK which Android Studio is using by going **File > Settings > Build, Execution, Deployment > Build Tools > Gradle** and change the Gradle SDK to the local directory of the JDK like ```C:\Program Files\OpenLogic\jdk-version```.
+Since this project uses an older version of SDL the project requires java version 8. Download it from [OpenJDK](https://www.openlogic.com/openjdk-downloads?field_java_parent_version_target_id=416&field_operating_system_target_id=436&field_architecture_target_id=391&field_java_package_target_id=All) and install it. 
+
+After installing it, change the JDK which Android Studio is using by going **File > Settings > Build, Execution, Deployment > Build Tools > Gradle** and change the Gradle SDK to the local directory of the JDK like ```C:\Program Files\OpenLogic\jdk-version```.
 
 You need to install the desired Android SDK for the device you want, in this example we are using API level 17, so to install one go to **File > Settings > Languages & Frameworks > C++ > Android SDK** and choose your desired device, in our case since we are using API level 17 we select the option ```Android 4.2 ("Jelly Bean")```
 
-**Note:** This project only was tested in versions of API level 17 and 30.
+**Note:** This project only was tested in versions of ```API level 17``` and ```30```.
 
 Lastly what u will need to do is to change the gradle version of the gradle-wrapper.properties to use the version 4.8.1, like this: 
 ```
 distributionUrl=https\://services.gradle.org/distributions/gradle-4.8.1-bin.zip
 ```
+
+## Installation
+
+Follow these steps to set up the project:
 
 1. **Clone the repository:**
 
