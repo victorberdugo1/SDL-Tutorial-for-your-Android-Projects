@@ -50,8 +50,8 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-4.8.1-bin.zip
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/yourusername/SDL-Android-Tutorial.git
-    cd SDL-Android-Tutorial
+    git clone https://github.com/victorberdugo1/SDL-Tutorial-for-your-Android-Projects
+    cd SDL-Tutorial-for-your-Android-Projects
     ```
 
 2. **Open the project in Android Studio:**
