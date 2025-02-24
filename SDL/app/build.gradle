@@ -1,24 +1,50 @@
-apply plugin: 'com.android.application'
+plugins {
+    id 'com.android.application'
+}
 
 android {
-    compileSdkVersion 17
-    buildToolsVersion "25.0.3"
+    compileSdk 33
 
-    sourceSets{
-        main{
-            jni.srcDirs = []
+    defaultConfig {
+        applicationId 'com.example.sdlcross'
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName '1.0'
+
+        externalNativeBuild {
+            cmake {
+                arguments '-DANDROID_STL=c++_shared', '-DWITH_IMAGE=OFF', '-DWITH_MIXER=OFF'
+                abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+                //abiFilters 'armeabi-v7a'
+            }
         }
     }
-    defaultConfig {
-        applicationId "org.libsdl.app"
-        minSdkVersion 10
-        targetSdkVersion 17
+
+    externalNativeBuild {
+        cmake {
+            path '../CMakeLists.txt'
+        }
     }
 
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        prefab true
+    }
 }
+
+dependencies {
+    implementation files('libs/SDL3-3.2.4.aar')
+    implementation files('libs/SDL3_image-3.2.0.aar')
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+}
+
